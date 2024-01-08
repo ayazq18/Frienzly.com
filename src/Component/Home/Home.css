@@ -9,7 +9,7 @@
   background-color: red;
   width: 100%;
   height: 100vh;
-  background-image: url("../public/Home.jpg");
+  background-image: url("/public/Images/Home.jpg");
   background-size: cover;
 }
 

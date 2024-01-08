@@ -38,7 +38,7 @@ export default function NavBar() {
       ) : (
         <>
           <div className="navBar-sec">
-            <img src="../full_logo.png" />
+            <img src="../Images/full_logo.png" />
             <ul>
               <li>
                 <a href="#">Home</a>

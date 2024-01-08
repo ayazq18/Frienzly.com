@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './NavBar';
-import Home from './Home';
-import Page1 from './Page1';
-import Page2 from './Page2';
-import Page3 from './Page3';
-import Page4 from './Page4';
+import NavBar from './Component/NavBar/NavBar';
+import Home from './Component/Home/Home';
+import Page1 from './Component/Page1/Page1';
+import Page2 from './Component/Page2/Page2';
+import Page3 from './Component/Page3/Page3';
+import Page4 from './Component/Page4/Page4';
 
 function App() {
   return (
