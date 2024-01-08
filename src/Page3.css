@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Syne";
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    background-image: url("../public/background1.jpg");
+    background-size: cover;
+}
+
+.page3-content{
+    width: 100%;
+    height: 100vh;
+    background-color: #0000004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page3-sec{
+    width: 25%;
+    margin-left: 10vw;
+}
+.page3-sec h1{
+    width: 90%;
+    line-height: 1;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.page3-sec p{
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .page3-sec {
+      width: 100%; /* Make it full-width on smaller screens */
+      margin-left: 0; /* Remove left margin on smaller screens */
+      padding: 0 20px; /* Add padding for better readability on smaller screens */
+    }
+  }
